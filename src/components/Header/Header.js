@@ -4,8 +4,8 @@ export default function Header() {
 
     return (
         <>
-            <header>
-                <main>
+            <main>
+                <header>
                     <div className="container">
                         <div className="row">
                             <div className="col">
@@ -13,8 +13,8 @@ export default function Header() {
                             </div>
                         </div>
                     </div>
-                </main>
-            </header>
+                </header>
+            </main>
         </>
     )
 }

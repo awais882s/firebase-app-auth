@@ -1,13 +1,18 @@
 @import "bootstrap";
-#root {
+body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-main {
-  flex: 1 0 auto;
-}
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 
+  main {
+    flex: 1 0 auto;
+  }
+}
 footer {
   height: 40px;
   background-color: black;
@@ -15,5 +20,6 @@ footer {
   a {
     color: white;
     text-decoration: none;
+    text-align: center;
   }
 }
