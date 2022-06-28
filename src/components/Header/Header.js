@@ -9,7 +9,7 @@ export default function Header() {
                     <div className="container">
                         <div className="row">
                             <div className="col">
-                                <h1>FireBase Authentications</h1>
+                                <h1 className='text-center'>FireBase Authentications</h1>
                             </div>
                         </div>
                     </div>
